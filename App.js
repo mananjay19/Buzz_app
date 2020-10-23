@@ -9,6 +9,7 @@ import { Header } from 'react-native-elements';
 export default class App extends React.Component {
   render(){
   return (
+    <View>
     <Header
           backgroundColor={'red'}
           centerComponent={{
@@ -17,6 +18,7 @@ export default class App extends React.Component {
           }}
         />
         <AppContainer/>
+    </View>
   )
   }
 }
